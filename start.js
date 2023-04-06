@@ -54,8 +54,8 @@ async function start() {
   // Send ChatGPT the source tree
   const ignoredFolders = options.ignoredFolders
     ? options.ignoredFolders.split(",")
-    : ["node_modules"];
-  const treeString = getSourceTree(ignoredFolders);
+    : ["node_modules", ".git"];
+  const treeString = getSourceTree(rootDir, ignoredFolders);
 
   //   console.log(`🌳 Project tree:`);
   //   console.log(treeString);

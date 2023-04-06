@@ -61,7 +61,6 @@ export default class ChatGpt {
    */
   async sendAndParse(prompt) {
     const textPrompt = await this.send(prompt);
-    console.log(textPrompt);
     return JSON.parse(textPrompt);
   }
 }
