@@ -91,7 +91,7 @@ async function coreLoop(chatGpt) {
           break;
         }
 
-        nextMessage = executeResult(res);
+        nextMessage = await executeResult(res);
       }
 
       // next message
