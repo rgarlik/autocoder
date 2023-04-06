@@ -1,6 +1,7 @@
 # 💻 Autocoder
 
-⚠ Right now, the current prompt sometimes returns incorrectly formatted data that does not adhere to the protocol when used with the `gpt-3.5-turbo` model. Use `gpt-4` if you have access to the API.
+> **Warning**
+> Right now, the current prompt sometimes returns incorrectly formatted data that does not adhere to the protocol when used with the `gpt-3.5-turbo` model. Use `gpt-4` if you have access to the API.
 
 ## What is autocoder
 Autocoder is a CLI utility that connects to OpenAI's ChatGPT, sends it the current project structure so the AI has some context and then listens for prompts for programming requirements from the user. The AI sends operations to the user's computer through the CLI and they're being executed, modifying the source code directly.
