@@ -1,0 +1,20 @@
+{
+  "name": "autocoder",
+  "version": "1.0.0",
+  "description": "An automated coding interface that solves programming prompts within the context of your actual project's source tree, using ChatGPT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Garlik <github.com/rgarlik>",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.5",
+    "openai": "^3.2.1",
+    "shelljs": "^0.8.5"
+  }
+}
