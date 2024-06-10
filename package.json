@@ -1,6 +1,6 @@
 {
   "name": "autocoder",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An automated coding interface that solves programming prompts within the context of your actual project's source tree, using ChatGPT.",
   "main": "index.js",
   "bin": "index.js",
