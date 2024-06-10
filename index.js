@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import start from "./start.js";
 import chalk from "chalk";
 
